@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Phishing Detector",
+    "version": "1.0",
+    "description": "Detects phishing websites using a trained ML model.",
+    "permissions": [
+      "tabs",
+      "notifications",
+      "webRequest",
+      "storage"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "icons/warning.png",
+      "48": "icons/warning.png",
+      "128": "icons/warning.png"
+    }
+  }
+
+  

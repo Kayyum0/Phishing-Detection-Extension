@@ -50,9 +50,6 @@ Enable Developer Mode
 Click Load unpacked and select the extension/ folder
 
 3. Run Backend (Optional if using API)
-bash
-Copy
-Edit
 cd backend
 pip install -r requirements.txt
 python app.py
